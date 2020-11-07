@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="primary">#303F9F</color>
+    <color name="primaryDark">#3F51B5</color>
+
+    <color name="button">#FF5252</color>
+    <color name="secondaryButton">#8492A6</color>
+
+    <color name="inputLabel">#8492A6</color>
+    <color name="line">#C0CCDA</color>
+    <color name="text">#47525E</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="restaurantCardTitle">#1F2D3D</color>
+    <color name="restaurantCardSubtitle">#8492A6</color>
+
+    <color name="restaurantMenuTitle">#5A6978</color>
+    <color name="restaurantMenuDishTitle">#5A6978</color>
+
+    <color name="dishDescription">#8492A6</color>
+
 </resources>
