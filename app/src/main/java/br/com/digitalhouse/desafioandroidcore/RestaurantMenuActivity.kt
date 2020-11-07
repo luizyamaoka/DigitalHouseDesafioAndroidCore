@@ -3,14 +3,13 @@ package br.com.digitalhouse.desafioandroidcore
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import br.com.digitalhouse.desafioandroidcore.domain.Dish
 import br.com.digitalhouse.desafioandroidcore.domain.Restaurant
-import kotlinx.android.synthetic.main.activity_restaurante_menu.*
+import kotlinx.android.synthetic.main.activity_restaurant_menu.*
 
 class RestaurantMenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_restaurante_menu)
+        setContentView(R.layout.activity_restaurant_menu)
         setSupportActionBar(toolbar)
 
         val restaurant = intent.getSerializableExtra("restaurant") as Restaurant
