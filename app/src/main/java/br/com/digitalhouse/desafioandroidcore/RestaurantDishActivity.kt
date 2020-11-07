@@ -10,6 +10,7 @@ class RestaurantDishActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_restaurant_dish)
         setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         var dish = intent.getSerializableExtra("dish") as Dish
 
