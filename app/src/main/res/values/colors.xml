@@ -2,14 +2,16 @@
 <resources>
     <color name="primary">#303F9F</color>
     <color name="primaryDark">#3F51B5</color>
+    <color name="white">#FFFFFF</color>
 
     <color name="button">#FF5252</color>
     <color name="secondaryButton">#8492A6</color>
 
     <color name="inputLabel">#8492A6</color>
+    <color name="inputText">#3F51B5</color>
+
     <color name="line">#C0CCDA</color>
-    <color name="text">#47525E</color>
-    <color name="white">#FFFFFF</color>
+    <color name="lineText">#47525E</color>
 
     <color name="restaurantCardTitle">#1F2D3D</color>
     <color name="restaurantCardSubtitle">#8492A6</color>
