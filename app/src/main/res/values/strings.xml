@@ -6,4 +6,7 @@
     <string name="loginButton">LOG IN</string>
     <string name="registerButton">REGISTER</string>
     <string name="orLine">OR</string>
+    <string name="registrationActivityTitle">Register</string>
+    <string name="inputName">Name</string>
+    <string name="inputPasswordConfirmation">Repeate password</string>
 </resources>
