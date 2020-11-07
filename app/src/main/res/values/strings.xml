@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">DigitalHouseDesafioAndroidCore</string>
     <string name="inputEmail">Email</string>
-    <string name="loginTitle">Digital House Foods</string>
+    <string name="appName">Digital House Foods</string>
     <string name="inputPassword">Password</string>
     <string name="loginButton">LOG IN</string>
     <string name="registerButton">REGISTER</string>

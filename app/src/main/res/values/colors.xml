@@ -15,6 +15,7 @@
 
     <color name="restaurantCardTitle">#1F2D3D</color>
     <color name="restaurantCardSubtitle">#8492A6</color>
+    <color name="background">#DDDDDD</color>
 
     <color name="restaurantMenuTitle">#5A6978</color>
     <color name="restaurantMenuDishTitle">#5A6978</color>

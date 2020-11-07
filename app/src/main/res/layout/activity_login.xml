@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="@string/loginTitle"
+        app:title="@string/appName"
         android:background="@color/primaryDark"
         app:titleTextColor="@color/white"/>
 
