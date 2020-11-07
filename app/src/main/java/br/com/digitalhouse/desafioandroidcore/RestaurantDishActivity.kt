@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.com.digitalhouse.desafioandroidcore.domain.Dish
 import kotlinx.android.synthetic.main.activity_restaurant_dish.*
+import kotlinx.android.synthetic.main.cover.*
 
 class RestaurantDishActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,8 +15,8 @@ class RestaurantDishActivity : AppCompatActivity() {
 
         var dish = intent.getSerializableExtra("dish") as Dish
 
-        ivDish.setImageResource(dish.image)
-        tvDishName.text = dish.name
+        ivCover.setImageResource(dish.image)
+        tvCoverTitle.text = dish.name
         tvDishDescription.text = dish.description
 
     }
