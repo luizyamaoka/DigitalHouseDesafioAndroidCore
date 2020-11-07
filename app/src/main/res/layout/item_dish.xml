@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:textSize="14dp"
+                android:textSize="16dp"
                 android:textColor="@color/restaurantMenuDishTitle"
                 android:text="Nome do prato"
                 android:layout_margin="5dp"/>
