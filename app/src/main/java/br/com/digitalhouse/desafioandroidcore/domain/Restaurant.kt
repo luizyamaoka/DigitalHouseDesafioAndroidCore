@@ -1,5 +1,7 @@
 package br.com.digitalhouse.desafioandroidcore.domain
 
-data class Restaurant(
+import java.io.Serializable
+
+class Restaurant(
     val id: Int, val name: String, val address: String,
-    val closingHour: String, val image: Int, val dishes: ArrayList<Dish>)
+    val closingHour: String, val image: Int, val dishes: ArrayList<Dish>) : Serializable

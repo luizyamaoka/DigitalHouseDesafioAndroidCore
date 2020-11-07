@@ -9,4 +9,5 @@
     <string name="registrationActivityTitle">Register</string>
     <string name="inputName">Name</string>
     <string name="inputPasswordConfirmation">Repeate password</string>
+    <string name="menuTitle">Pratos principais</string>
 </resources>

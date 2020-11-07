@@ -1,5 +1,6 @@
 package br.com.digitalhouse.desafioandroidcore
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.com.digitalhouse.desafioandroidcore.domain.Dish
@@ -14,7 +15,7 @@ class RestaurantsListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_restaurants_list)
 
-        rvRestaurants.adapter = RestaurantsListAdapter(restaurants)
+        rvRestaurants.adapter = RestaurantsListAdapter(this, restaurants)
 
     }
 
@@ -33,4 +34,5 @@ class RestaurantsListActivity : AppCompatActivity() {
             generateSequence { dish }.take(10).toMutableList()
         )
     }
+
 }
